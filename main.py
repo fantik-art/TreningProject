@@ -10,3 +10,12 @@ xx = ['qwe','sdasda']
 z = list(map(lambda x: x.upper(), xx))
 
 print(z)
+
+print(f'this wery cool!')
+
+def main(name):
+    new = list(filter(lambda x: x =='a', name))
+    return new
+
+xxx = main(['a', 'k'])
+print(xxx)
